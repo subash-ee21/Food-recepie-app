@@ -1,0 +1,37 @@
+.foodcontainer {
+  width: 300px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  margin: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.imgcontainer {
+  max-width: 100%;
+  height: auto;
+}
+.foodname {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.foods {
+  font-size: 1em;
+  font-weight: 600;
+  color: gray;
+}
+.buttons {
+  background-color: tan;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+.container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
